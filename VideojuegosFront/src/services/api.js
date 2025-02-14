@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8080"; 
+const API_URL = "http://backend-juegos-service:8080"; 
 
 export const getJuegos = async () => {
   const response = await axios.get(`${API_URL}/Juegos`);
